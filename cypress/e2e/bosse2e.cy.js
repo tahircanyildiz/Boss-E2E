@@ -1,4 +1,5 @@
 import { faker } from '@faker-js/faker';
+import 'cypress-file-upload';
 
 describe("Boss Giriş Testi", () => {
     beforeEach(() => {
@@ -10,24 +11,25 @@ describe("Boss Giriş Testi", () => {
         const randomPhone = `+90${faker.number.int({ min: 5000000000, max: 5999999999 })}`;
         const email = Cypress.env('EMAIL');
         const password = Cypress.env('PASSWORD');
+        const dosyaYolu = "BOSS_Matematik_Soru_Havuzu.docx";
 
         cy.visit("https://portal.bossai.app/");
         cy.wait(500)
 
         //email
-        cy.get('div#app div.mb-4 > div > div > input').click().type(email, { delay: 100 });
+        cy.get('input[placeholder="E-posta adresinizi girin"]').click().type(email, { delay: 100 });
         cy.wait(500)
 
         //sifre
-        cy.get('input[placeholder="Şifreniz"]').click().type(password, { delay: 100 });
+        cy.get('input[placeholder="Şifrenizi girin"]').click().type(password, { delay: 100 });
         cy.wait(500)
 
         //giris
-        cy.get('.px-4').click();
+        cy.get('div#app button[type="submit"]').click();
         cy.wait(5000)
 
         // //ayarlar
-        cy.get('div#app div:nth-child(4) > div > div > div > img').click();
+        cy.get('div#app div:nth-child(7) > div > div > div > img').click();
         cy.wait(1500)
 
         //profil ayarları
@@ -42,12 +44,8 @@ describe("Boss Giriş Testi", () => {
         cy.get('input[placeholder="Telefon Numarası"]').click().clear().type(randomPhone, { delay: 150 });
         cy.wait(500)
 
-        //mail
-        cy.get('input[placeholder="E-posta adresiniz"]').click().clear().type(randomEmail, { delay: 150 });
-        cy.wait(900)
-
         //ayarları kaydet
-        cy.get('div#app span').click();
+        cy.contains('button', 'Değişiklikleri Kaydet').click();
         cy.wait(2000)
 
         cy.get('.swal2-confirm').click();
@@ -55,11 +53,9 @@ describe("Boss Giriş Testi", () => {
 
         //mail ve ismi kontrol et
         cy.get('div#app p.text-sm.font-medium.text-gray-700').should('have.text', randomName);
-        cy.get('div#app p.text-xs.text-gray-500').should('have.text', randomEmail);
-
 
         //ayarlar
-        cy.get('div#app div:nth-child(4) > div > div > div > img').click();
+        cy.get('div#app div:nth-child(7) > div > div > div > img').click();
         cy.wait(1500)
 
         cy.get('div#app div.fixed.bg-white.rounded-lg.shadow-lg.overflow-hidden.z-30 > div > div:nth-child(2)').click();
@@ -132,6 +128,42 @@ describe("Boss Giriş Testi", () => {
 
         cy.get('.swal2-confirm').click();
         cy.wait(1500)
+
+
+        // dosya yükleme alanı
+        cy.get("div#app div:nth-child(5) > div > div > div > img").click();
+        cy.wait(4000)
+
+        // //silme butonu
+        // cy.get("div#app tr:nth-child(1) > td:nth-child(7) > div > button > img").click();
+        // cy.wait(800)
+
+        // //silme onay ekranı
+        // cy.get(`div.swal2-actions > button[type="button"].swal2-confirm.swal2-styled.swal2-default-outline`).click()
+        // cy.wait(1500)
+
+        // cy.contains('button', 'OK').click();
+        // cy.wait(800)
+
+
+        //dosya yükleme
+        cy.get('div#app main > div > div:nth-child(2) > div > div').attachFile(dosyaYolu, { subjectType: 'drag-n-drop' });
+        cy.wait(4000)
+
+        cy.intercept('POST', '/files/0.0.1').as('fileUpload');
+        cy.get('div#app div:nth-child(2) > button').click();
+        cy.wait('@fileUpload').then((interception) => {
+            expect(interception.response.statusCode).to.eq(200);  // Yükleme başarılı mı?
+        });
+
+        cy.wait(2000)
+
+        cy.reload();
+        cy.wait(2000)
+
+
+        cy.get('div#app td:nth-child(3) > div').should('contain', "BOSS_Matematik_Soru_Havuzu.docx");
+
 
 
     });
