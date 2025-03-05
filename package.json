@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.5.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "string-similarity": "^4.0.4"
   }
 }

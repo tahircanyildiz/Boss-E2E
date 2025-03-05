@@ -1,17 +1,22 @@
 import { faker } from '@faker-js/faker';
 import 'cypress-file-upload';
 
+
+
+const randomName = faker.person.fullName();
+const randomPhone = `+90${faker.number.int({ min: 5000000000, max: 5999999999 })}`;
+const email = Cypress.env('EMAIL');
+const password = Cypress.env('PASSWORD');
+const dosyaYolu = "BOSS_Matematik_Soru_Havuzu.docx";
+
 describe("Boss Giriş Testi", () => {
+
+  
     beforeEach(() => {
         cy.viewport(1920, 1080);
     });
     it("Boss başarılı giriş yapar", () => {
-        const randomName = faker.person.fullName();
-        const randomEmail = faker.internet.email();
-        const randomPhone = `+90${faker.number.int({ min: 5000000000, max: 5999999999 })}`;
-        const email = Cypress.env('EMAIL');
-        const password = Cypress.env('PASSWORD');
-        const dosyaYolu = "BOSS_Matematik_Soru_Havuzu.docx";
+      
 
         cy.visit("https://portal.bossai.app/");
         cy.wait(500)
@@ -135,15 +140,15 @@ describe("Boss Giriş Testi", () => {
         cy.wait(4000)
 
         // //silme butonu
-        // cy.get("div#app tr:nth-child(1) > td:nth-child(7) > div > button > img").click();
-        // cy.wait(800)
+         cy.get("tbody tr:nth-child(4) td:nth-child(7) div:nth-child(1) button:nth-child(1) img:nth-child(1)").click();
+         cy.wait(800)
 
-        // //silme onay ekranı
-        // cy.get(`div.swal2-actions > button[type="button"].swal2-confirm.swal2-styled.swal2-default-outline`).click()
-        // cy.wait(1500)
+        //silme onay ekranı
+        cy.get(`div.swal2-actions > button[type="button"].swal2-confirm.swal2-styled.swal2-default-outline`).click()
+        cy.wait(1500)
 
-        // cy.contains('button', 'OK').click();
-        // cy.wait(800)
+        cy.contains('button', 'OK').click();
+        cy.wait(800)
 
 
         //dosya yükleme
@@ -165,7 +170,8 @@ describe("Boss Giriş Testi", () => {
         cy.get('div#app td:nth-child(3) > div').should('contain', "BOSS_Matematik_Soru_Havuzu.docx");
 
 
-
+        document.querySelector("tbody tr:nth-child(3) td:nth-child(7) div:nth-child(1) button:nth-child(1) img:nth-child(1)")
+        document.querySelector("tbody tr:nth-child(2) td:nth-child(7) div:nth-child(1) button:nth-child(1) img:nth-child(1)") 
     });
 });
 
