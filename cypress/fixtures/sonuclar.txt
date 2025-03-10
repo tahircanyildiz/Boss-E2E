@@ -1,0 +1,180 @@
+Soru: Haziran ayında doğan çalışanlarım kimlerdir?
+Durum: Doğru
+
+Soru: Evli Olan Çalışan Sayısı Kaçtır
+Durum: Doğru
+
+Soru: Toplam çalışma yılı 10 yıl ve üzeri olan kişi sayısı kaçtır?
+Durum: Yanlış
+
+Soru: Doğum yeri en fazla olan ülke hangisidir ve sayısı kaçtır?
+Durum: Doğru
+
+Soru: İK Bölümünde çalışan, ünvanı uzman olan ön lisans mezunu kişi sayısı kaçtır?
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olan kişi sayısı kaçtır?
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olanların kaçı erkektir?
+Durum: Doğru
+
+Soru: Doğum yeri Ankara olan çalışan sayısının toplam çalışan sayısına oranı nedir?
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olan kişilerin isimleri nelerdir?
+Durum: Yanlış
+
+Soru: Stok tutarı en fazla olan malzeme hangisidir?
+Durum: Doğru
+
+Soru: Gram cinsinden stoklanan malzeme sayısı kaçtır?
+Durum: Doğru
+
+Soru: Stok maliyeti en fazla olan 3 malzeme nedir?
+Durum: Doğru
+
+Soru: En fazla hangi stok biriminden malzeme vardır?
+Durum: Yanlış
+
+Soru: Stok birimi adet olup miktarı 1000 ve üzeri olan malzemelerin toplam stok tutarı nedir?
+Durum: Doğru
+
+Soru: Toplam stok tutarı ne kadardır?
+Durum: Doğru
+
+Soru: Epoksi Reçine malzemesinin stok tutarı içindeki payı nedir?
+Durum: Doğru
+
+Soru: Termin süresi en uzun olup, stok miktarı en düşük olan malzeme hangisidir?
+Durum: Doğru
+
+Soru: Raf ömürlü malzemelerin toplam stok tutar ne kadardır?
+Durum: Doğru
+
+Soru: Birim fiyatı en yüksek olan 3 malzeme hangisidir?
+Durum: Doğru
+
+Soru: Oğuz Aksoy'un satış sorumlusu olduğu ve cirosu en yüksek firma hangisidir?
+Durum: Doğru
+
+Soru: Hakan Şimşek'in sorumlu olduğu müşterilerin cirosunun toplam ciroya oranı kaçtır?
+Durum: Doğru
+
+Soru: En yüksek ciroya sahip müşteri ile en düşük ciroya sahip müşteri arasındaki fark nedir?
+Durum: Doğru
+
+Soru: Lokasyonu Adana'da olan müşterinin adı nedir?
+Durum: Doğru
+
+Soru: En son imzaladığım sözleşme hangi müşteriye aittir?
+Durum: Doğru
+
+Soru: Kaç tane müşterinin vadesi 10'dur?
+Durum: Doğru
+
+Soru: Vadesi 20 olan müşterilerimin toplam ciro tutarı ne kadardır?
+Durum: Doğru
+
+Soru: Vadesi 30 olan en eski sözleşme tarihine sahip müşterimin satış sorumlusunun cinsiyeti nedir?
+Durum: Yanlış
+
+Soru: Bünyamin Elektrik Motorları firmasının en son teslim edilen ürününün sipariş miktarı ve sevkiyat tarihi nedir?
+Durum: Yanlış
+
+Soru: Hangi ürünün sipariş miktarı en fazladır ve toplam sipariş miktarı kaç adettir?
+Durum: Yanlış
+
+Soru: Kaç tane sipariş istenen teslim tarihine göre geç teslim edilmiştir
+Durum: Yanlış
+
+Soru: Hangi müşterinin siparişleri daha fazla geç teslim edilmiştir. Adı nedir
+Durum: Yanlış
+
+Soru: Sipariş adedine göre en fazla sipariş edilen ürünün adı nedir
+Durum: Yanlış
+
+Soru: Sipariş adedine göre en fazla alınan siparişten kaç tane sipariş alınmıştır ve sipariş idleri nelerdir
+Durum: Yanlış
+
+Soru: En fazla hangi şehirlere teslimat yapılmıştır ve teslim edilen sipariş sayısı kaçtır
+Durum: Yanlış
+
+Soru: En fazla ciroya sahip olan müşterimin siparişleri hangi şehiredir
+Durum: Yanlış
+
+Soru: Nova Motor Üretim ödemesi gereken tutara göre gecikmiş ödemesi var mıdır
+Durum: Yanlış
+
+Soru: Nova Motor Üretim müşterimin ödemediği fatura tutarı ne kadardır
+Durum: Doğru
+
+Soru: Hiç ödenmemiş kaç ödemem vardır
+Durum: Doğru
+
+Soru: Tarihe göre gecikmiş ödemem ne kadardır ve bunların sayısının toplam ödemelere oranı nedir
+Durum: Doğru
+
+Soru: Ocak 2025'de ödenecek faturaların toplam tutarı nedir
+Durum: Yanlış
+
+Soru: Ödeme tarihi ile ödenmesi gereken tarih aynı olan müşterilerimi bana sıralar mısın
+Durum: Doğru
+
+Soru: Tüm borçlarının tamamını ödeyen müşterilerimin idlerini söyler misin
+Durum: Yanlış
+
+Soru: Bana en fazla borcu olan müşterim hangisidir
+Durum: Doğru
+
+Soru: Lokasyonu İzmir olan tedarikçilerimin isimleri nelerdir
+Durum: Doğru
+
+Soru: Vadesi en düşük olan tedarikçilerimin sayısı kaçtır
+Durum: Doğru
+
+Soru: 2024 Ocak ayında, bankalara yapmam gerek toplam ödeme ne kadardır
+Durum: Doğru
+
+Soru: Globalbanka toplam ne kadar para ödedim
+Durum: Doğru
+
+Soru: Globalbanka hangi ay eksik ödeme yaptım
+Durum: Yanlış
+
+Soru: Globalbank ve MetroCaptial'e ne kadar toplam borcum kaldı
+Durum: Yanlış
+
+Soru: Bu ay toplam ödemem gereken tutar ne kadar
+Durum: Yanlış
+
+Soru: Zamanında ve fazla ödediğim tedarikçi ödeme sayım kaçtır
+Durum: Yanlış
+
+Soru: Zamanında ve eksik ödediğim tedarikçi ödeme sayım kaçtır
+Durum: Yanlış
+
+Soru: Gecikmiş ve tam ödediğim tedarikçi ödeme sayım kaçtır
+Durum: Yanlış
+
+Soru: Gecikmiş ve eksik ödediğim tedarikçi ödeme sayım kaçtır
+Durum: Yanlış
+
+Soru: Gecikmiş ve fazla ödediğim tedarikçi ödeme sayım kaçtır
+Durum: Yanlış
+
+Soru: Olması gereken tutardan en fazla ödediğim tedarikçimin adı nedir ve tutarı ne kadardır
+Durum: Yanlış
+
+Soru: Olması gereken tutardan en az ödediğim tedarikçimin adı nedir ve tutarı ne kadardır
+Durum: Yanlış
+
+Soru: En fazla ödeme yaptığım tedarikçimin adı nedir
+Durum: Yanlış
+
+Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yaptım
+Durum: Yanlış
+
+Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yapacağım
+Durum: Yanlış
+

@@ -17,6 +17,7 @@
     "@faker-js/faker": "^9.5.0",
     "dotenv": "^16.4.7",
     "mailslurp-client": "^15.21.0",
-    "string-similarity": "^4.0.4"
+    "string-similarity": "^4.0.4",
+    "xlsx": "^0.18.5"
   }
 }
