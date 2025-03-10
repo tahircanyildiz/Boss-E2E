@@ -53,11 +53,14 @@ describe('Kullanıcı giriş testi', () => {
         cy.wait(500);
         // kayıt ol butonuna tıkla
         cy.get('button[type=\'submit\'] span').click();
-        cy.wait(3000);
+        cy.wait(5000);
+
+        // mail password bilgilerini metin belgesine yaz
+        cy.writeFile('cypress/fixtures/userData.txt', `\n Email: ${emailAddress}\nPassword: ${Cypress.env('password')}\n`, { flag: 'a+' });
+
         //pop up kapat
         cy.contains('button', 'OK').click();
-        cy.wait(1000);
-
+        cy.document().its('readyState').should('eq', 'complete');
         //bilgilendirme ekranlarını atla
         cy.get("body > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)").click();
         cy.wait(1000);
