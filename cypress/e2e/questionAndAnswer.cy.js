@@ -4,8 +4,8 @@ const { Document, Packer, Paragraph } = require('docx');
 const email = Cypress.env('EMAIL');
 const password = Cypress.env('PASSWORD');
 const filePath = 'cypress/fixtures/sonuclar.txt';
-const botToken = '7519351932:AAEUxs8n0s1_kccVoutI8yCyUFBexfRM79M';  // Bot token'ınızı buraya ekleyin
-const chatId = '1089457879';  // Chat ID'nizi buraya ekleyin
+const botToken = Cypress.env("TELEGRAM_API_KEY")  
+const chatId = Cypress.env("CHAT_ID"); 
 
 describe('Boss Soru Cevap Testi', () => {
 

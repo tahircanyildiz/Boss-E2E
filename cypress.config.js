@@ -13,6 +13,8 @@ module.exports = defineConfig({
       config.env.EMAIL = process.env.EMAIL;
       config.env.PASSWORD = process.env.PASSWORD;
       config.env.OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+      config.env.TELEGRAM_API_KEY=process.env.TELEGRAM_API_KEY;
+      config.env.CHAT_ID=process.env.CHAT_ID;
 
 
       on('task', {
