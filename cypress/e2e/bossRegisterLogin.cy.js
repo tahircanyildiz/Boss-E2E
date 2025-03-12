@@ -12,9 +12,8 @@ describe('Kullanıcı giriş testi', () => {
     let emailAddress;
     let inboxId;
     before(() => {
-        mailslurp = new MailSlurp({ apiKey:'6d4ee2d843c3d1fd3fe97420a490a532aaaf4573fdd21c8012b59ced9a56c644'});
+        mailslurp = new MailSlurp({ apiKey:'bffd2ca11c3f43e0b7ef0bc6b7f34f8461e7d81650e27a43f954dfd8c7a6654e'});
     
-        // Yeni bir geçici e-posta adresi oluştur
         return mailslurp.createInbox().then(inbox => {
           inboxId = inbox.id;
           emailAddress = inbox.emailAddress;
@@ -92,7 +91,6 @@ describe('Kullanıcı giriş testi', () => {
         cy.wait(1000);
         cy.get("button[class='swal2-confirm swal2-styled swal2-default-outline']").click();
         cy.wait(1500);
-        cy.get("button[class='swal2-confirm swal2-styled swal2-default-outline']").click();
 
         //giriş yap
         //email
