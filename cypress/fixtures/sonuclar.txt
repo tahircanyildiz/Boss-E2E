@@ -19,7 +19,7 @@ Cevap: İK bölümümüzde uzman unvanına sahip, ön lisans mezunu 10 çalışa
 Durum: Doğru
 
 Soru: İlk tecrübesi otomotiv olan kişi sayısı kaçtır? 
-Cevap: Daha önce bahsettiğim gibi, ilk tecrübesi otomotiv sektöründe olan 6 çalışanımız bulunmaktadır. Bunlar: Ahmet Yılmaz, Zeynep Yıldız, Emre Polat, Melis Erdoğan, Rıza Bulut ve Rıdvan Soylu'dur. 
+Cevap: Daha önce verdiğim bilgilere dayanarak, ilk tecrübesi otomotiv sektöründe olan 6 çalışanımız bulunmaktadır. Bunlar: Ahmet Yılmaz, Zeynep Yıldız, Emre Polat, Melis Erdoğan, Rıza Bulut ve Rıdvan Soylu'dur. 
 Durum: Doğru
 
 Soru: İlk tecrübesi otomotiv olanların kaçı erkektir? 
@@ -44,14 +44,13 @@ Durum: Doğru
 
 Soru: Stok maliyeti en fazla olan 3 malzeme nedir? 
 Cevap: Stok maliyeti en fazla olan 3 malzeme:
-1. Epoksi Reçine (ID: MALZ23): ₺750.000,00 
-2. Fiber Optik Kablo (ID: MALZ17): ₺75.000,00 
-3. Silikon Yağ (ID: MALZ31): ₺75.000,00 
- 
+1. Epoksi Reçine: Stok Miktarı: 50000, Birim Fiyatı: 15.00, Toplam Stok Maliyeti: ₺750.000,00 
+2. Fiber Optik Kablo: Stok Miktarı: 3000, Birim Fiyatı: 25.00, Toplam Stok Maliyeti: ₺75.000,00 
+3. Silikon Yağ: Stok Miktarı: 3000, Birim Fiyatı: 25.00, Toplam Stok Maliyeti: ₺75.000,00 
 Durum: Doğru
 
 Soru: En fazla hangi stok biriminden malzeme vardır? 
-Cevap: En fazla malzeme, adet cinsinden stoklanmıştır. Toplamda 26 adet bulunmaktadır. 
+Cevap: En fazla malzeme, adet cinsinden stoklanmıştır. Toplamda 26 adet malzeme bulunmaktadır. 
 Durum: Yanlış
 
 Soru: Stok birimi adet olup miktarı 1000 ve üzeri olan malzemelerin toplam stok tutarı nedir? 
@@ -63,12 +62,12 @@ Cevap: Toplam stok tutarımız 1.984.300,00 TL'dir.
 Durum: Doğru
 
 Soru: Epoksi Reçine malzemesinin stok tutarı içindeki payı nedir? 
-Cevap: Epoksi Reçine'nin toplam stok tutarı içindeki payını hesaplamak için daha önce verdiğim bilgileri kullanabiliriz. Epoksi Reçine'nin stok tutarı 750.000,00 TL ve toplam stok tutarı 1.984.300,00 TL idi. Buna göre, Epoksi Reçine'nin payı yaklaşık %37,8'dir (750.000 / 1.984.300 * 100). Yani Epoksi Reçine, toplam stok değerinin yaklaşık üçte birinden fazlasını oluşturuyor. 
+Cevap: Epoksi Reçine'nin toplam stok tutarı içindeki payını hesaplamak için önce Epoksi Reçine'nin stok tutarını ve toplam stok tutarını hatırlayalım. Epoksi Reçine'nin stok tutarı 750.000,00 TL ve toplam stok tutarı 1.984.300,00 TL idi. Buna göre, Epoksi Reçine'nin payını hesaplıyorum: (750.000 / 1.984.300) * 100 = yaklaşık %37,8. Yani Epoksi Reçine, toplam stok tutarının yaklaşık %37,8'ini oluşturuyor. 
 Durum: Doğru
 
 Soru: Termin süresi en uzun olup, stok miktarı en düşük olan malzeme hangisidir? 
-Cevap: Termin süresi en uzun (6 hafta) ve stok miktarı en düşük (500) olan malzeme: Kırılmaz Cam (ID: MALZ19) 
-Durum: Doğru
+Cevap: Veri işlenirken bir hata oluştu. 
+Durum: Yanlış
 
 Soru: Raf ömürlü malzemelerin toplam stok tutar ne kadardır? 
 Cevap: Raf ömrü olan malzemelerin toplam stok tutarı 1.984.300,00 TL'dir. 
@@ -76,10 +75,9 @@ Durum: Doğru
 
 Soru: Birim fiyatı en yüksek olan 3 malzeme hangisidir? 
 Cevap: Birim fiyatı en yüksek olan 3 malzeme:
-1. Aluminyum Kasa (ID: MALZ33): ₺60,00 
-2. Kompozit Levha (ID: MALZ13): ₺60,00 
-3. Paslanmaz Çelik (ID: MALZ08): ₺55,00 
- 
+1. Aluminyum Kasa: ₺60,00 
+2. Kompozit Levha: ₺60,00 
+3. Paslanmaz Çelik: ₺55,00 
 Durum: Doğru
 
 Soru: Oğuz Aksoy'un satış sorumlusu olduğu ve cirosu en yüksek firma hangisidir? 
@@ -119,7 +117,7 @@ Cevap: I couldn't retrieve the data due to a database error. Error details: Unkn
 Durum: Yanlış
 
 Soru: Hangi ürünün sipariş miktarı en fazladır ve toplam sipariş miktarı kaç adettir? 
-Cevap: Sağlanan belgelere göre, en yüksek sipariş miktarına sahip ürün belirtilmemiştir. Ancak, genel toplam sipariş miktarının 557 olduğu belirtilmiştir. 
+Cevap: Sağlanan belgelere göre, hangi ürünün en yüksek sipariş miktarına sahip olduğu belirtilmemiştir. Ancak, tüm ürünler için toplam sipariş miktarı 557'dir. 
 Durum: Yanlış
 
 Soru: Kaç tane sipariş istenen teslim tarihine göre geç teslim edilmiştir 
@@ -159,7 +157,7 @@ Cevap: Henüz hiç ödenmemiş 20 adet ödememiz bulunmaktadır.
 Durum: Doğru
 
 Soru: Tarihe göre gecikmiş ödemem ne kadardır ve bunların sayısının toplam ödemelere oranı nedir 
-Cevap: I couldn't retrieve the data due to a database error. Error details: undefined 
+Cevap: Tarihe göre gecikmiş 71 adet ödemeniz bulunmaktadır. 
 Durum: Doğru
 
 Soru: Ocak 2025'de ödenecek faturaların toplam tutarı nedir 
@@ -191,8 +189,8 @@ Cevap: 2024 Ocak ayında bankalara yapmamız gereken toplam ödeme 425.850 TL'di
 Durum: Doğru
 
 Soru: Globalbanka toplam ne kadar para ödedim 
-Cevap: BOSS dosyaları inceliyor... 
-Durum: Yanlış
+Cevap: Globalbank'a toplamda 787.500 TL ödeme yapmışım. 
+Durum: Doğru
 
 Soru: Globalbank'a hangi ay eksik ödeme yaptım 
 Cevap: Verilen belgelerde sizin Globalbank'a eksik ödeme yaptığınız bir ay bilgisi bulunmamaktadır. Ancak, 45446 tarihinde Globalbank'a yapılması gereken 112500 tutarındaki ödeme 102500 olarak gerçekleşmiştir. 
@@ -227,22 +225,22 @@ Cevap: I couldn't retrieve the data due to a database error. Error details: Unkn
 Durum: Yanlış
 
 Soru: Olması gereken tutardan en fazla ödediğim tedarikçimin adı nedir ve tutarı ne kadardır 
-Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Ödenen Tutar ($)' in 'field list' 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'tp.Ödenen Tutar ($)' in 'field list' 
 Durum: Yanlış
 
 Soru: Olması gereken tutardan en az ödediğim tedarikçimin adı nedir ve tutarı ne kadardır 
-Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Fatura Tutarı ($)' in 'field list' 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'tp.Fatura Tutarı ($)' in 'field list' 
 Durum: Yanlış
 
 Soru: En fazla ödeme yaptığım tedarikçimin adı nedir 
-Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'o.Tedarkçi ID' in 'on clause' 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'tp.Tedarkçi ID' in 'on clause' 
 Durum: Yanlış
 
 Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yaptım 
-Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Ödenen Tutar ($)' in 'field list' 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'tp.Ödenen Tutar ($)' in 'field list' 
 Durum: Yanlış
 
 Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yapacağım 
-Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Fatura Tutarı ($)' in 'field list' 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Fatura Tutarı ($)' in 'field list' 
 Durum: Yanlış
 

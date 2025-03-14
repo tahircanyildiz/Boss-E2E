@@ -36,4 +36,25 @@ Cypress.Commands.add("restoreLocalStorage", () => {
   Object.keys(LOCAL_STORAGE_MEMORY).forEach(key => {
     localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key]);
   });
+
+  Cypress.Commands.add("saveResultsAsDocx", (results) => {
+    const doc = new Document({
+        sections: [
+            {
+                properties: {},
+                children: results.map((result) => 
+                    new Paragraph([
+                        new TextRun(`Soru: ${result.question}\n`).bold(),
+                        new TextRun(`Cevap: ${result.answer}\n`),
+                        new TextRun(`Durum: ${result.isCorrect}\n\n`),
+                    ])
+                ),
+            },
+        ],
+    });
+
+    Packer.toBuffer(doc).then((buffer) => {
+        fs.writeFileSync("cypress/fixtures/matematikSonuclar.docx", buffer);
+    });
+});
 });

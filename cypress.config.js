@@ -1,8 +1,8 @@
 const { defineConfig } = require("cypress");
 const dotenv = require("dotenv");
 const fs = require('fs');
-const { Document, Packer, Paragraph } = require('docx');
-dotenv.config();
+const docx = require("docx");
+const { Document, Packer, Paragraph, TextRun } = docx;dotenv.config();
 const axios = require('axios');
 const FormData = require('form-data');
 
@@ -18,28 +18,28 @@ module.exports = defineConfig({
 
 
       on('task', {
-        writeDocx(results) {
+        saveResultsAsDocx(results) {
           const doc = new Document({
             sections: [
-              {
-                properties: {},
-                children: results.flatMap(result => [
-                  new Paragraph(`Soru: ${result.question}`),
-                  new Paragraph(`Cevap: ${result.answer}`),
-                  new Paragraph(`Durum: ${result.isCorrect}`),
-                  new Paragraph('') // Boş satır ekleyerek aralarına boşluk bırakıyoruz.
-                ]),
-              },
+                {
+                    properties: {},
+                    children: results.flatMap((result) => [
+                        new Paragraph({
+                            children: [new TextRun({ text: `Soru: ${result.question}`, bold: true })],
+                        }),
+                        new Paragraph({ children: [new TextRun(`Cevap: ${result.answer}`)] }),
+                        new Paragraph({ children: [new TextRun(`Durum: ${result.isCorrect}`)] }),
+                        new Paragraph({ children: [new TextRun("")] }), // Boşluk bırakmak için
+                    ]),
+                },
             ],
-          });
+        });
 
-          return new Promise((resolve, reject) => {
-            Packer.toBuffer(doc).then((buffer) => {
-              fs.writeFileSync('cypress/fixtures/DbSoruCevap.docx', buffer);
-              resolve(true);
-            }).catch(reject);
+          return Packer.toBuffer(doc).then((buffer) => {
+              fs.writeFileSync("cypress/fixtures/Sonuclar.docx", buffer);
+              return null; // Cypress "task" fonksiyonları bir değer döndürmeli
           });
-        },
+      },
         sendTelegramFile({ botToken, chatId, filePath }) {
           return new Promise((resolve, reject) => {
           
