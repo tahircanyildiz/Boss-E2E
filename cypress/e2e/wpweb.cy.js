@@ -1,28 +1,12 @@
+require('dotenv').config();
+const twilio = require('twilio');
 
-const filePath = 'cypress/fixtures/matematikSonuclar.docx';
-import 'cypress-file-upload';
+const client = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
-
-describe('sfsdf', () => {
-    it('sdfsdfsdf', () => {
-        cy.visit('https://web.whatsapp.com/');
-        cy.wait(15000); //  okutmak için bekleme süresi
-
-        cy.get('._2_1wd') // Arama kutusunu bul
-  .click()
-  .type('Özge Yalçın'); // Kişinin veya grubun adını yaz
-
-cy.contains('Özge Yalçın') // Sonuçlardan seç
-  .click();
-
-
-cy.get('span[data-icon="attach-menu-plus"]') // Ataç butonuna bas
-  .click();
-
-cy.get('input[type="file"]') // Dosya yükleme butonu
-  .attachFile(filePath), { subjectType: 'drag-n-drop' };
-
-cy.get('span[data-icon="send"]') // Gönder butonu
-  .click();
-    });
-});
+client.messages
+  .create({
+    from: process.env.TWILIO_WHATSAPP_FROM,
+    to: process.env.TWILIO_WHATSAPP_TO,
+    body: 'Merhaba! Twilio WhatsApp API test mesajı gönderildi 🎉'
+  })
+  .then(message => console.log('WhatsApp mesajı gönderildi:', message.sid))

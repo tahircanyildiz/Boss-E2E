@@ -35,7 +35,7 @@ module.exports = defineConfig({
 
           return new Promise((resolve, reject) => {
             Packer.toBuffer(doc).then((buffer) => {
-              fs.writeFileSync('cypress/fixtures/matematikSonuclar.docx', buffer);
+              fs.writeFileSync('cypress/fixtures/DbSoruCevap.docx', buffer);
               resolve(true);
             }).catch(reject);
           });

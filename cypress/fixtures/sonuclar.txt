@@ -2,3 +2,247 @@ Soru: Haziran ayında doğan çalışanlarım kimlerdir?
 Cevap: Haziran ayında doğan çalışanlar: Melis Erdoğan (Yönetici, Bakım), Tuğçe Ateş (Yönetici, Depo ve Lojistik), Murat Korkmaz (Müdür, Üretim), Volkan Er (Uzman, Kalite Kontrol) 
 Durum: Doğru
 
+Soru: Evli Olan Çalışan Sayısı Kaçtır 
+Cevap: Şirketimizde 25 evli çalışan bulunmaktadır. 
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olan kişilerin isimleri nelerdir? 
+Cevap: İlk tecrübesi otomotiv olan çalışanlar: Ahmet Yılmaz, Zeynep Yıldız, Emre Polat, Melis Erdoğan, Rıza Bulut, Rıdvan Soylu 
+Durum: Doğru
+
+Soru: Doğum yeri en fazla olan ülke hangisidir ve sayısı kaçtır? 
+Cevap: Çalışanlarımızın doğum yerlerine baktığımızda, en fazla Türkiye doğumlu olanlar bulunuyor. Toplamda 40 çalışanımız Türkiye doğumlu. 
+Durum: Doğru
+
+Soru: İK Bölümünde çalışan, ünvanı uzman olan ön lisans mezunu kişi sayısı kaçtır? 
+Cevap: İK bölümümüzde uzman unvanına sahip, ön lisans mezunu 10 çalışanımız bulunmaktadır. 
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olan kişi sayısı kaçtır? 
+Cevap: Daha önce bahsettiğim gibi, ilk tecrübesi otomotiv sektöründe olan 6 çalışanımız bulunmaktadır. Bunlar: Ahmet Yılmaz, Zeynep Yıldız, Emre Polat, Melis Erdoğan, Rıza Bulut ve Rıdvan Soylu'dur. 
+Durum: Doğru
+
+Soru: İlk tecrübesi otomotiv olanların kaçı erkektir? 
+Cevap: İlk iş tecrübesi otomotiv sektöründe olan 4 erkek çalışanımız var. 
+Durum: Doğru
+
+Soru: Doğum yeri Ankara olan çalışan sayısının toplam çalışan sayısına oranı nedir? 
+Cevap: Çalışanlarımızın %4'ünün doğum yeri Ankara'dır. 
+Durum: Doğru
+
+Soru: Toplam çalışma yılı 10 yıl ve üzeri olan kişi sayısı kaçtır? 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'toplam_calisma_yili' in 'where clause' 
+Durum: Yanlış
+
+Soru: Stok tutarı en fazla olan malzeme hangisidir? 
+Cevap: Stok tutarı en fazla olan malzeme: Epoksi Reçine (50000 adet) 
+Durum: Doğru
+
+Soru: Gram cinsinden stoklanan malzeme sayısı kaçtır? 
+Cevap: Gram cinsinden stokladığımız 2 farklı malzeme bulunmaktadır. 
+Durum: Doğru
+
+Soru: Stok maliyeti en fazla olan 3 malzeme nedir? 
+Cevap: Stok maliyeti en fazla olan 3 malzeme:
+1. Epoksi Reçine (ID: MALZ23): ₺750.000,00 
+2. Fiber Optik Kablo (ID: MALZ17): ₺75.000,00 
+3. Silikon Yağ (ID: MALZ31): ₺75.000,00 
+ 
+Durum: Doğru
+
+Soru: En fazla hangi stok biriminden malzeme vardır? 
+Cevap: En fazla malzeme, adet cinsinden stoklanmıştır. Toplamda 26 adet bulunmaktadır. 
+Durum: Yanlış
+
+Soru: Stok birimi adet olup miktarı 1000 ve üzeri olan malzemelerin toplam stok tutarı nedir? 
+Cevap: Adet olarak stokladığımız ve miktarı 1000'in üzerinde olan malzemelerin toplam stok tutarı 124.900,00 TL'dir. 
+Durum: Doğru
+
+Soru: Toplam stok tutarı ne kadardır? 
+Cevap: Toplam stok tutarımız 1.984.300,00 TL'dir. 
+Durum: Doğru
+
+Soru: Epoksi Reçine malzemesinin stok tutarı içindeki payı nedir? 
+Cevap: Epoksi Reçine'nin toplam stok tutarı içindeki payını hesaplamak için daha önce verdiğim bilgileri kullanabiliriz. Epoksi Reçine'nin stok tutarı 750.000,00 TL ve toplam stok tutarı 1.984.300,00 TL idi. Buna göre, Epoksi Reçine'nin payı yaklaşık %37,8'dir (750.000 / 1.984.300 * 100). Yani Epoksi Reçine, toplam stok değerinin yaklaşık üçte birinden fazlasını oluşturuyor. 
+Durum: Doğru
+
+Soru: Termin süresi en uzun olup, stok miktarı en düşük olan malzeme hangisidir? 
+Cevap: Termin süresi en uzun (6 hafta) ve stok miktarı en düşük (500) olan malzeme: Kırılmaz Cam (ID: MALZ19) 
+Durum: Doğru
+
+Soru: Raf ömürlü malzemelerin toplam stok tutar ne kadardır? 
+Cevap: Raf ömrü olan malzemelerin toplam stok tutarı 1.984.300,00 TL'dir. 
+Durum: Doğru
+
+Soru: Birim fiyatı en yüksek olan 3 malzeme hangisidir? 
+Cevap: Birim fiyatı en yüksek olan 3 malzeme:
+1. Aluminyum Kasa (ID: MALZ33): ₺60,00 
+2. Kompozit Levha (ID: MALZ13): ₺60,00 
+3. Paslanmaz Çelik (ID: MALZ08): ₺55,00 
+ 
+Durum: Doğru
+
+Soru: Oğuz Aksoy'un satış sorumlusu olduğu ve cirosu en yüksek firma hangisidir? 
+Cevap: Oğuz Aksoy'un satış sorumlusu olduğu ve cirosu en yüksek firma: Kaya Elektrik (6.100.000 TL) 
+Durum: Doğru
+
+Soru: Hakan Şimşek'in sorumlu olduğu müşterilerin cirosunun toplam ciroya oranı kaçtır? 
+Cevap: Hakan Şimşek'in sorumlu olduğu müşterilerin cirosu, toplam ciromuzun %31,08'ini oluşturmaktadır. 
+Durum: Doğru
+
+Soru: En yüksek ciroya sahip müşteri ile en düşük ciroya sahip müşteri arasındaki fark nedir? 
+Cevap: En yüksek ciroya sahip müşterimiz ile en düşük ciroya sahip müşterimiz arasındaki fark 2.900.000 TL'dir. 
+Durum: Doğru
+
+Soru: Lokasyonu Adana'da olan müşterinin adı nedir? 
+Cevap: Adana lokasyonundaki müşterimizin adı Aslan Elektrik Motor'dur. 
+Durum: Doğru
+
+Soru: En son imzaladığım sözleşme hangi müşteriye aittir? 
+Cevap: En son imzaladığınız sözleşme BaşarıTek Motorlar müşterimize aittir. 
+Durum: Doğru
+
+Soru: Kaç tane müşterinin vadesi 10'dur? 
+Cevap: 19 müşterimizin vadesi 10 gündür. 
+Durum: Doğru
+
+Soru: Vadesi 20 olan müşterilerimin toplam ciro tutarı ne kadardır? 
+Cevap: Vadesi 20 gün olan müşterilerimizin toplam ciro tutarı 26.800.000 TL'dir. 
+Durum: Doğru
+
+Soru: Vadesi 30 olan en eski sözleşme tarihine sahip müşterimin satış sorumlusunun cinsiyeti nedir? 
+Cevap: Vadesi 30 gün olan ve en eski sözleşme tarihine sahip müşterimizin satış sorumlusunun cinsiyeti Erkek'tir. 
+Durum: Doğru
+
+Soru: Bünyamin Elektrik Motorları firmasının en son teslim edilen ürününün sipariş miktarı ve sevkiyat tarihi nedir? 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 's.Sipariş Miktarı' in 'field list' 
+Durum: Yanlış
+
+Soru: Hangi ürünün sipariş miktarı en fazladır ve toplam sipariş miktarı kaç adettir? 
+Cevap: Sağlanan belgelere göre, en yüksek sipariş miktarına sahip ürün belirtilmemiştir. Ancak, genel toplam sipariş miktarının 557 olduğu belirtilmiştir. 
+Durum: Yanlış
+
+Soru: Kaç tane sipariş istenen teslim tarihine göre geç teslim edilmiştir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Sevkiyat Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Hangi müşterinin siparişleri daha fazla geç teslim edilmiştir. Adı nedir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 's.Sevkiyat Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Sipariş adedine göre en fazla sipariş edilen ürünün adı nedir 
+Cevap: Sağlanan belgelerde, en yüksek sipariş miktarına sahip ürünün adı belirtilmemiştir. 
+Durum: Yanlış
+
+Soru: Sipariş adedine göre en fazla alınan siparişten kaç tane sipariş alınmıştır ve sipariş idleri nelerdir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Sipariş Miktarı' in 'field list' 
+Durum: Yanlış
+
+Soru: En fazla hangi şehirlere teslimat yapılmıştır ve teslim edilen sipariş sayısı kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Teslim Yeri' in 'field list' 
+Durum: Yanlış
+
+Soru: En fazla ciroya sahip olan müşterimin siparişleri hangi şehiredir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 's.Teslim Yeri' in 'field list' 
+Durum: Yanlış
+
+Soru: Nova Motor Üretim ödemesi gereken tutara göre gecikmiş ödemesi var mıdır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: undefined 
+Durum: Yanlış
+
+Soru: Nova Motor Üretim müşterimin ödemediği fatura tutarı ne kadardır 
+Cevap: Nova Motor Üretim müşterimizin ödenmemiş fatura tutarı 436.953 TL'dir. 
+Durum: Doğru
+
+Soru: Hiç ödenmemiş kaç ödemem vardır 
+Cevap: Henüz hiç ödenmemiş 20 adet ödememiz bulunmaktadır. 
+Durum: Doğru
+
+Soru: Tarihe göre gecikmiş ödemem ne kadardır ve bunların sayısının toplam ödemelere oranı nedir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: undefined 
+Durum: Doğru
+
+Soru: Ocak 2025'de ödenecek faturaların toplam tutarı nedir 
+Cevap: Ocak 2025'te ödenecek faturaların toplam tutarı 80.557 TL'dir. 
+Durum: Yanlış
+
+Soru: Ödeme tarihi ile ödenmesi gereken tarih aynı olan müşterilerimi bana sıralar mısın 
+Cevap: Ödeme tarihi ile ödenmesi gereken tarih aynı olan müşteriler: Ege Motor Çözümleri, Özgün Motor Teknik, Bünyamin Elektrik Motorları, Aslan Elektrik Motor, Mert Elektrik Motor, Küresel Motor Teknolojileri, Yüksek Vizyon Motor, Atlas Motor Proje, Güneş Motor Sistemleri, Bilge Motor Sistemleri, Görkem Elektrik Motor, BaşarıTek Motorlar, Yıldız Motor Teknolojileri, Nova Motor Üretim, Özel Motor Teknik, Hızlı Motor Çözümleri 
+Durum: Doğru
+
+Soru: Tüm borçlarının tamamını ödeyen müşterilerimin idlerini söyler misin 
+Cevap: Tüm borçlarını ödeyen müşteri bulunamadı. 
+Durum: Yanlış
+
+Soru: Bana en fazla borcu olan müşterim hangisidir 
+Cevap: En fazla borcu olan müşterimiz, 460.888 TL ile Yıldız Motor Teknolojileri'dir. 
+Durum: Doğru
+
+Soru: Lokasyonu İzmir olan tedarikçilerimin isimleri nelerdir 
+Cevap: İzmir lokasyonlu tedarikçiler: DynoPart, VoltMaster 
+Durum: Doğru
+
+Soru: Vadesi en düşük olan tedarikçilerimin sayısı kaçtır 
+Cevap: Vadesi en düşük olan 5 tedarikçimiz bulunmaktadır. 
+Durum: Doğru
+
+Soru: 2024 Ocak ayında, bankalara yapmam gerek toplam ödeme ne kadardır 
+Cevap: 2024 Ocak ayında bankalara yapmamız gereken toplam ödeme 425.850 TL'dir. 
+Durum: Doğru
+
+Soru: Globalbanka toplam ne kadar para ödedim 
+Cevap: BOSS dosyaları inceliyor... 
+Durum: Yanlış
+
+Soru: Globalbank'a hangi ay eksik ödeme yaptım 
+Cevap: Verilen belgelerde sizin Globalbank'a eksik ödeme yaptığınız bir ay bilgisi bulunmamaktadır. Ancak, 45446 tarihinde Globalbank'a yapılması gereken 112500 tutarındaki ödeme 102500 olarak gerçekleşmiştir. 
+Durum: Yanlış
+
+Soru: Globalbank ve MetroCaptial'e ne kadar toplam borcum kaldı 
+Cevap: Globalbank ve MetroCapital'e toplam 1.153.090 TL borcumuz bulunmaktadır. 
+Durum: Doğru
+
+Soru: Bu ay toplam ödemem gereken tutar ne kadar 
+Cevap: Bu ay ödemeniz gereken herhangi bir tutar bulunmamaktadır. 
+Durum: Yanlış
+
+Soru: Zamanında ve fazla ödediğim tedarikçi ödeme sayım kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Ödeme Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Zamanında ve eksik ödediğim tedarikçi ödeme sayım kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Ödeme Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Gecikmiş ve tam ödediğim tedarikçi ödeme sayım kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Ödeme Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Gecikmiş ve eksik ödediğim tedarikçi ödeme sayım kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Ödeme Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Gecikmiş ve fazla ödediğim tedarikçi ödeme sayım kaçtır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Ödeme Tarihi' in 'where clause' 
+Durum: Yanlış
+
+Soru: Olması gereken tutardan en fazla ödediğim tedarikçimin adı nedir ve tutarı ne kadardır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Ödenen Tutar ($)' in 'field list' 
+Durum: Yanlış
+
+Soru: Olması gereken tutardan en az ödediğim tedarikçimin adı nedir ve tutarı ne kadardır 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Fatura Tutarı ($)' in 'field list' 
+Durum: Yanlış
+
+Soru: En fazla ödeme yaptığım tedarikçimin adı nedir 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'o.Tedarkçi ID' in 'on clause' 
+Durum: Yanlış
+
+Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yaptım 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'to2.Ödenen Tutar ($)' in 'field list' 
+Durum: Yanlış
+
+Soru: İzmir lokasyonundaki tedarikçilerime ne kadar ödeme yapacağım 
+Cevap: I couldn't retrieve the data due to a database error. Error details: Unknown column 'Fatura Tutarı ($)' in 'field list' 
+Durum: Yanlış
+
